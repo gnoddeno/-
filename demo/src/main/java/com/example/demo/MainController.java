@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class MainContriller {
+public class MainController {
     @GetMapping("/demo")
     @ResponseBody
     public String index(){
