@@ -2,6 +2,8 @@ package com.example.demo;
 
 import java.time.LocalDateTime;
 
+import com.example.demo.question.Question;
+import com.example.demo.question.QuestionRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
